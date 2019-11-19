@@ -21,4 +21,3 @@ steps:
    arguments:'--configuration $(buildConfiguration)'
 
    - script:dotnet build --configuration $(buildConfiguration)
-    displayname:'dotnet build $(buildconfiguration)'
