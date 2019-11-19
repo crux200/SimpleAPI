@@ -40,7 +40,7 @@ namespace SimpleWebapi
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+    
             app.UseMvc();
         }
     }
